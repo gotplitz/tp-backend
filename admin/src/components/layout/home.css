@@ -1,0 +1,130 @@
+/* ---------------------------------- */
+/* Intro Banner
+------------------------------------- */
+.intro-banner {
+    padding: 105px 0;
+    position: relative;
+    width: 100%;
+}
+
+.intro-banner.big-padding {
+    padding: 130px 0;
+}
+
+.intro-banner .container {
+    z-index: 100;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.intro-banner .container h1 {
+    font-size: 40px;
+    line-height: 1.1em;
+    text-align: right;
+}
+
+.intro-banner .container h1 strong {
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.intro-banner:after,
+.intro-banner:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    /* background: linear-gradient(
+        to right,
+        rgba(250, 250, 250, 1) 20%,
+        rgba(250, 250, 250, 0.95) 50%,
+        rgba(250, 250, 250, 0.1) 80%,
+        rgba(250, 250, 250, 0) 100%
+    ); */
+}
+
+.intro-banner:after {
+    z-index: 5;
+    background-color: #fafafa;
+}
+
+.intro-banner .background-image-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+}
+
+/* Disabled Gradient */
+/* .intro-banner.disable-gradient:before {
+    background: #f2f2f2;
+    opacity: 0.85;
+} */
+
+.intro-banner.disable-gradient .background-image-container {
+    left: 0;
+    width: 100%;
+}
+
+/* Banner Headline */
+.banner-headline {
+    display: block;
+}
+
+.banner-headline h1,
+.banner-headline h2,
+.banner-headline h3,
+.banner-headline h4 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #777;
+    line-height: 80px;
+}
+
+.banner-headline strong {
+    font-weight: 600;
+    color: #333;
+}
+
+.banner-headline strong.color {
+    color: #66676b;
+}
+
+/* Alternative Headline */
+.banner-headline-alt {
+    margin: -10px 0 0 0;
+    display: block;
+}
+
+.banner-headline-alt h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #333;
+    line-height: 50px;
+}
+
+.banner-headline-alt span {
+    font-size: 24px;
+    color: #888;
+    font-weight: 300;
+    line-height: 34px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.dark-overlay .banner-headline-alt h3 {
+    color: #fff;
+}
+.dark-overlay .banner-headline-alt span {
+    color: rgba(255, 255, 255, 0.7);
+}

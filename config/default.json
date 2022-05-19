@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://ferociousmedia:Webdepartment@roarpower.by4wx.mongodb.net/TPDetailing?retryWrites=true&w=majority",
+  "jwtSecret": "bynormanpleitez"
+}

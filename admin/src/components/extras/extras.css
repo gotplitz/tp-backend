@@ -1,0 +1,157 @@
+/* -------------------------------- */
+/* 404 Error Page
+----------------------------------- */
+#not-found {
+    margin: 40px 0 80px 0;
+}
+
+#not-found.center {
+    text-align: center;
+}
+
+#not-found h2 {
+    text-align: center;
+    font-size: 210px;
+    line-height: 210px;
+    font-weight: 500;
+    letter-spacing: -8px;
+}
+
+#not-found p {
+    text-align: center;
+    font-size: 28px;
+    line-height: 42px;
+    display: inline-block;
+    margin-top: 0px;
+    color: #999;
+}
+
+#not-found i {
+    color: #e0e0e0;
+    font-size: 210px;
+    top: 0;
+    margin-left: -40px;
+    position: relative;
+}
+
+.not-found-search.intro-banner-search-form .intro-search-field,
+.not-found-search.intro-banner-search-form input,
+.not-found-search.intro-banner-search-form {
+    background: #f7f7f7;
+    box-shadow: none;
+}
+
+.login-register-page .welcome-text h3 {
+    font-size: 26px;
+}
+
+.registration-form {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #b23092;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(24px, 0);
+    }
+}
+
+.post-types-listing-company-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .not-found-search.intro-banner-search-form {
+        background: #fff;
+    }
+}
+
+@media (max-width: 767px) {
+    #not-found h2 {
+        font-size: 110px;
+        line-height: 110px;
+    }
+
+    #not-found p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    #not-found i {
+        font-size: 120px;
+        top: 5px;
+        margin-left: 0;
+    }
+
+    .not-found-search.intro-banner-search-form {
+        margin-top: -30px;
+    }
+
+    .login-register-page .account-type {
+        width: 100%;
+    }
+    .login-register-page .account-type div {
+        margin-right: 0;
+    }
+    .login-register-page .social-login-buttons button {
+        margin-right: 0;
+        width: 100%;
+        display: block;
+        max-width: 100%;
+    }
+}
