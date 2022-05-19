@@ -1,5 +1,5 @@
-# TP-Detailing
-Website created with Create-React-App for https://admin.gettpd.com
+# PLITZ CMS V1
+Created with Create-React-App for https://admin.gettpd.com
 =======
 
 ## Technology
